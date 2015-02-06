@@ -1,0 +1,19 @@
+.intro {
+    text-align:center;
+    font-size: 20px;
+}
+
+#body_text{
+	background-color: white;
+	border-radius:5px;
+}
+
+#github{
+	text-align:center;
+	margin:10px auto auto auto;
+}
+
+.full {
+	background-color: #FFFFFF;
+}
+

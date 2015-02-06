@@ -7,9 +7,10 @@
     <meta name="author" content="Max Yelsky">
     <meta name="description" content="Personal site of Max Yelsky">
     <title>Max Yelsky</title>
-
+    <link href="font_awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
     
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -21,15 +22,22 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body style="background-color:#DEDEDE">
+  <body class="full">
     <div class="container-fluid">
-        <div class="row"> <!-- This row needs styling. Either through an ID or inline -->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-8"><h3>Max Yelsky!</h3></div>
-                    <div class="col-md-4"><h3>Hey there</h3></div>
-                </div>
+        <div class="row">
+            <div class="col-sm-8" id="name"><h3>Max Yelsky</h3></div>
+            <div class="col-sm-1" id="work"><h3>Work</h3></div>
+            <div class="col-sm-1" id="resume"><h3>Resume</h3></div>
+            <div class="col-sm-1" id="github"><i class="fa fa-github fa-3x"></i></div>
+            <div class="col-sm-1" id="linkedin"><h3>LinkedIn</h3></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6" id="body_text">
+                <p class="intro">I'm Max Yelsky, an Electrical and Computer Engineering major at Johns Hopkins University. I'm currently employed at ShapeU, and I've worked at RightAnswers and Recon in the past. I'm the president of the JHU Robotics club, the design captain of the JHU ChemE Car team, and the Vice President of the JHU IEEE.</p>
+
             </div>
+            <div class="col-md-3"></div>
         </div>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
