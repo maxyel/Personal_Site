@@ -5,7 +5,7 @@
 }
 /*top bar*/
 .top {
-	background-color:white;
+	background-color: #f5f5f5;
 	font-family:'Roboto Slab', serif;
 }
 #name {
@@ -30,7 +30,6 @@
 
 a, a:hover, a:link {
 	text-decoration: inherit;
-	color:inherit;
 }
 
 .full {
@@ -41,16 +40,8 @@ a, a:hover, a:link {
 #body_text{
 	background-color: white;
 	border-radius:5px;
-}
-
-.first_para {
-    text-align:left;
-    font-size: 20px;
-}
-
-.second_para {
 	text-align:left;
-    font-size: 20px;
+	font-size:20px;
 }
 
 
