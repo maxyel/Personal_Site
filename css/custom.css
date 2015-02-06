@@ -1,3 +1,6 @@
+/* CSS Styling for www.maxyelsky.com */
+
+/*top bar*/
 .top {
 	background-color:white;
 	font-family:'Roboto Slab', serif;
@@ -5,11 +8,25 @@
 #name {
 	padding-left: 200px;
 }
+
+/*to be applied to all links*/
 .works,.resume,.github,.linkedin {
 	display:inline-block;
-	margin:5px 10px 5px 10px;
+	margin: auto 10px auto 10px;
 	font-family: 'Roboto Slab', serif;
 	font-size: 20px;
+}
+
+.github {
+	padding-left:10px;
+
+}
+.linkedin{
+	padding-left:15px;
+}
+
+a, a:hover {
+	text-decoration: none;
 }
 
 .full {
