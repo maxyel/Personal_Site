@@ -1,5 +1,8 @@
 /* CSS Styling for www.maxyelsky.com */
 
+* {
+	color:black;
+}
 /*top bar*/
 .top {
 	background-color:white;
@@ -25,8 +28,9 @@
 	padding-left:15px;
 }
 
-a, a:hover {
-	text-decoration: none;
+a, a:hover, a:link {
+	text-decoration: inherit;
+	color:inherit;
 }
 
 .full {
