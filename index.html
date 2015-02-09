@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="ui.bootstrap.demo">
 <!-- change / delete this later -->
   <head>
     <meta charset="utf-8">
@@ -61,6 +61,22 @@
         </div>
     </div>
 
+  <!-- Carousel -->
+    <div ng-controller="CarouselDemoCtrl">
+      <div style="height: 305px">
+        <carousel interval="myInterval">
+          <slide ng-repeat="slide in slides" active="slide.active">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+            <div class="carousel-caption">
+              <p>{{slide.text}}</p>
+            </div>
+          </slide>
+        </carousel>
+      </div>
+    </div>
+  <!-- /Carousel -->
+
+
     <footer class="footer">
       <div class="container" id="bottom-bar">
         <div class="col-md-2"></div>
@@ -75,5 +91,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!--Carousel scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+    <script src="js/ui-bootstrap-tpls-0.12.0.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <!-- End Carousel Scripts -->
+
   </body>
 </html>
