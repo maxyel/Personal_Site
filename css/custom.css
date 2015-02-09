@@ -52,6 +52,24 @@ a, a:hover, a:link {
 	margin: 5px auto 5px auto;
 }
 
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left :hover,
+.carousel-control.right :hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
 
 
 
