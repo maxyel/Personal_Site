@@ -13,7 +13,7 @@
 }
 
 /*to be applied to all links*/
-.works,.resume,.github,.linkedin {
+.works,.resume,.github,.linkedin,.email {
 	display:inline-block;
 	margin: auto 10px auto 10px;
 	font-family: 'Roboto Slab', serif;
@@ -26,6 +26,10 @@
 }
 .linkedin{
 	padding-left:15px;
+}
+
+.email {
+	padding-left:10px;
 }
 
 a, a:hover, a:link {
@@ -42,6 +46,10 @@ a, a:hover, a:link {
 	border-radius:5px;
 	text-align:left;
 	font-size:20px;
+}
+
+#bottom-bar {
+	margin: 5px auto 5px auto;
 }
 
 
