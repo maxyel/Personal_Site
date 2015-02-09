@@ -52,6 +52,43 @@ a, a:hover, a:link {
 	margin: 5px auto 5px auto;
 }
 
+/* Start Carousel */
+
+#carousel {
+	margin-top: 20px;
+}
+.carousel-caption{
+	color:white;
+	font-family:'Roboto Slab', serif;
+}
+
+.slide-description {
+	color:white;
+	font-family:'Roboto Slab', serif;
+	size:5px;
+}
+
+.carousel-control{
+	width:10%;
+}
+
+.glyphicon-chevron-left,.glyphicon-chevron-right {
+	color:black;
+}
+
+.carousel-image{
+	margin: auto;
+}
+.carousel-caption-container {
+	background-color:white;
+
+}
+.carousel-caption {
+	color:white;
+	font-family:'Roboto Slab', serif;
+	font-size: 30px;
+}
+
 .carousel-indicators .active {
     background-color: #2980b9;
 }
@@ -69,7 +106,7 @@ a, a:hover, a:link {
 	opacity: .7;
 	filter: alpha(opacity=70);
 }
-
+/* End Carousel */ 
 
 
 

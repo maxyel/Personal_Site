@@ -4,11 +4,13 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
   $scope.slides = [
     {
       image: 'images/HopHacks.jpg',
-      text: 'HopHacks!'
+      text: 'HopHacks',
+      description: 'February 8th, 2015'
     },
     {
       image: 'images/Israel_School.jpg',
-      text: 'Ashkelon!'
+      text: 'Ashkelon, Israel',
+      description: 'January 14th, 2015'
     }
   ];
 });

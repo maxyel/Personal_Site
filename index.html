@@ -62,18 +62,27 @@
     </div>
 
   <!-- Carousel -->
-    <div ng-controller="CarouselDemoCtrl">
-      <div style="height: 305px">
-        <carousel interval="myInterval">
-          <slide ng-repeat="slide in slides" active="slide.active">
-            <img ng-src="{{slide.image}}" style="margin:auto;">
-            <div class="carousel-caption">
-              <p>{{slide.text}}</p>
-            </div>
-          </slide>
-        </carousel>
+  <div class="container" id="carousel">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div ng-controller="CarouselDemoCtrl">
+          <div style="height: 305px">
+            <carousel interval="myInterval">
+              <slide ng-repeat="slide in slides" active="slide.active">
+                <img ng-src="{{slide.image}}" class="carousel-image">
+                <div class="carousel-caption">
+                  <h3>{{slide.text}}</h3>
+                  <h5>{{slide.description}}</h5>
+                </div>
+              </slide>
+            </carousel>
+          </div>
+        </div>
       </div>
+      <div class="col-md-1"></div>  
     </div>
+  </div>
   <!-- /Carousel -->
 
 
