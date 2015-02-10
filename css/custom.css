@@ -62,16 +62,6 @@ a, a:hover, a:link {
 	font-family:'Roboto Slab', serif;
 }
 
-.slide-description {
-	color:white;
-	font-family:'Roboto Slab', serif;
-	size:5px;
-}
-
-.carousel-control{
-	width:10%;
-}
-
 .glyphicon-chevron-left,.glyphicon-chevron-right {
 	color:black;
 }
@@ -88,6 +78,11 @@ a, a:hover, a:link {
 	font-family:'Roboto Slab', serif;
 	font-size: 30px;
 }
+
+/*To drop indicators if necessary
+.carousel-indicators,.carousel-indicators li {
+	display:none;
+}*/
 
 .carousel-indicators .active {
     background-color: #2980b9;
