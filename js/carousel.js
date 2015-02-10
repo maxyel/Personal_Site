@@ -1,6 +1,6 @@
 angular.module('ui.bootstrap.demo', ['ui.bootstrap']);
 angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($scope) {
-  $scope.myInterval = 5000;
+  $scope.myInterval = 4000;
   $scope.slides = [
     {
       image: 'images/HopHacks15.jpg',
@@ -22,8 +22,8 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
       text: 'ChemECar Competition',
       description: 'March 13, 2014'
     },
-    {
-      image: 'images/HopHacks14.jpg',
+    /*{
+      image: 'images/HopHacks14u.jpg',
       text: 'HopHacks Fall 2014',
       description: 'September 8th, 2014'
     },
@@ -36,6 +36,6 @@ angular.module('ui.bootstrap.demo').controller('CarouselDemoCtrl', function ($sc
       image: 'images/paris.jpg',
       text: 'Paris',
       description: 'August 11th, 2014'
-    }
+    }*/
   ];
 });
